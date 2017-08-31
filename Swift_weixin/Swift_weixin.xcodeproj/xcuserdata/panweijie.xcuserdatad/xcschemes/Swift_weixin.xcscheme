@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6645D7341F57EC3100CE5A5C"
-               BuildableName = "swiftWeixin.app"
-               BlueprintName = "swiftWeixin"
-               ReferencedContainer = "container:swiftWeixin.xcodeproj">
+               BlueprintIdentifier = "66EA67341F57EE6500755196"
+               BuildableName = "Swift_weixin.app"
+               BlueprintName = "Swift_weixin"
+               ReferencedContainer = "container:Swift_weixin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6645D7501F57EC3100CE5A5C"
-               BuildableName = "swiftWeixinTests.xctest"
-               BlueprintName = "swiftWeixinTests"
-               ReferencedContainer = "container:swiftWeixin.xcodeproj">
+               BlueprintIdentifier = "66EA674B1F57EE6600755196"
+               BuildableName = "Swift_weixinTests.xctest"
+               BlueprintName = "Swift_weixinTests"
+               ReferencedContainer = "container:Swift_weixin.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6645D75B1F57EC3100CE5A5C"
-               BuildableName = "swiftWeixinUITests.xctest"
-               BlueprintName = "swiftWeixinUITests"
-               ReferencedContainer = "container:swiftWeixin.xcodeproj">
+               BlueprintIdentifier = "66EA67561F57EE6600755196"
+               BuildableName = "Swift_weixinUITests.xctest"
+               BlueprintName = "Swift_weixinUITests"
+               ReferencedContainer = "container:Swift_weixin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6645D7341F57EC3100CE5A5C"
-            BuildableName = "swiftWeixin.app"
-            BlueprintName = "swiftWeixin"
-            ReferencedContainer = "container:swiftWeixin.xcodeproj">
+            BlueprintIdentifier = "66EA67341F57EE6500755196"
+            BuildableName = "Swift_weixin.app"
+            BlueprintName = "Swift_weixin"
+            ReferencedContainer = "container:Swift_weixin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6645D7341F57EC3100CE5A5C"
-            BuildableName = "swiftWeixin.app"
-            BlueprintName = "swiftWeixin"
-            ReferencedContainer = "container:swiftWeixin.xcodeproj">
+            BlueprintIdentifier = "66EA67341F57EE6500755196"
+            BuildableName = "Swift_weixin.app"
+            BlueprintName = "Swift_weixin"
+            ReferencedContainer = "container:Swift_weixin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6645D7341F57EC3100CE5A5C"
-            BuildableName = "swiftWeixin.app"
-            BlueprintName = "swiftWeixin"
-            ReferencedContainer = "container:swiftWeixin.xcodeproj">
+            BlueprintIdentifier = "66EA67341F57EE6500755196"
+            BuildableName = "Swift_weixin.app"
+            BlueprintName = "Swift_weixin"
+            ReferencedContainer = "container:Swift_weixin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

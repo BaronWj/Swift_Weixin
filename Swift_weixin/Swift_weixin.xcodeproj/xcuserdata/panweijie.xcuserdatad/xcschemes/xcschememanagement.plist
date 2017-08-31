@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>swiftWeixin.xcscheme</key>
+		<key>Swift_weixin.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6645D7341F57EC3100CE5A5C</key>
+		<key>66EA67341F57EE6500755196</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6645D7501F57EC3100CE5A5C</key>
+		<key>66EA674B1F57EE6600755196</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6645D75B1F57EC3100CE5A5C</key>
+		<key>66EA67561F57EE6600755196</key>
 		<dict>
 			<key>primary</key>
 			<true/>
