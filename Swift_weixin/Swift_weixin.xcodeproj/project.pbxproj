@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC19BEA64FAB7640FB4ED1E /* Pods_Swift_weixin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D604EA654F3C86FCCA94C46 /* Pods_Swift_weixin.framework */; };
 		66EA67391F57EE6500755196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA67381F57EE6500755196 /* AppDelegate.swift */; };
 		66EA673B1F57EE6500755196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA673A1F57EE6500755196 /* ViewController.swift */; };
 		66EA673E1F57EE6500755196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EA673C1F57EE6500755196 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02EF9D4EF3B4A579B4300EEE /* Pods-Swift_weixin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_weixin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_weixin/Pods-Swift_weixin.release.xcconfig"; sourceTree = "<group>"; };
+		0D604EA654F3C86FCCA94C46 /* Pods_Swift_weixin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_weixin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EA67351F57EE6500755196 /* Swift_weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EA67381F57EE6500755196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EA673A1F57EE6500755196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		66EA67571F57EE6600755196 /* Swift_weixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_weixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EA675B1F57EE6600755196 /* Swift_weixinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_weixinUITests.swift; sourceTree = "<group>"; };
 		66EA675D1F57EE6600755196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D923A86495E322CEC660FA /* Pods-Swift_weixin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_weixin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_weixin/Pods-Swift_weixin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC19BEA64FAB7640FB4ED1E /* Pods_Swift_weixin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550E4CF690BA37D0B33B231E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84D923A86495E322CEC660FA /* Pods-Swift_weixin.debug.xcconfig */,
+				02EF9D4EF3B4A579B4300EEE /* Pods-Swift_weixin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		66EA672C1F57EE6500755196 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				66EA674F1F57EE6600755196 /* Swift_weixinTests */,
 				66EA675A1F57EE6600755196 /* Swift_weixinUITests */,
 				66EA67361F57EE6500755196 /* Products */,
+				550E4CF690BA37D0B33B231E /* Pods */,
+				861DC9F518CDA0231ED22435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +144,14 @@
 			path = Swift_weixinUITests;
 			sourceTree = "<group>";
 		};
+		861DC9F518CDA0231ED22435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D604EA654F3C86FCCA94C46 /* Pods_Swift_weixin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66EA67601F57EE6600755196 /* Build configuration list for PBXNativeTarget "Swift_weixin" */;
 			buildPhases = (
+				8AE67603D856CB407410E791 /* [CP] Check Pods Manifest.lock */,
 				66EA67311F57EE6500755196 /* Sources */,
 				66EA67321F57EE6500755196 /* Frameworks */,
 				66EA67331F57EE6500755196 /* Resources */,
+				57AE195153388359ECB38E01 /* [CP] Embed Pods Frameworks */,
+				A8821B5CF10155AC4A4D8034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,17 +224,20 @@
 					66EA67341F57EE6500755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					66EA674B1F57EE6600755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 66EA67341F57EE6500755196;
 					};
 					66EA67561F57EE6600755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 66EA67341F57EE6500755196;
 					};
@@ -259,6 +289,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57AE195153388359ECB38E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift_weixin/Pods-Swift_weixin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE67603D856CB407410E791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8821B5CF10155AC4A4D8034 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift_weixin/Pods-Swift_weixin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66EA67311F57EE6500755196 /* Sources */ = {
@@ -417,7 +495,9 @@
 		};
 		66EA67611F57EE6600755196 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D923A86495E322CEC660FA /* Pods-Swift_weixin.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YNLT3B3J7K;
 				INFOPLIST_FILE = Swift_weixin/Info.plist;
@@ -430,7 +510,9 @@
 		};
 		66EA67621F57EE6600755196 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EF9D4EF3B4A579B4300EEE /* Pods-Swift_weixin.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YNLT3B3J7K;
 				INFOPLIST_FILE = Swift_weixin/Info.plist;
@@ -518,6 +600,7 @@
 				66EA67621F57EE6600755196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66EA67631F57EE6600755196 /* Build configuration list for PBXNativeTarget "Swift_weixinTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +609,7 @@
 				66EA67651F57EE6600755196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66EA67661F57EE6600755196 /* Build configuration list for PBXNativeTarget "Swift_weixinUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +618,7 @@
 				66EA67681F57EE6600755196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
