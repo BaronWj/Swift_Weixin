@@ -51,26 +51,44 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hvu-sW-re5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1186" y="117"/>
+            <point key="canvasLocation" x="-1279" y="118"/>
         </scene>
         <!--发现-->
         <scene sceneID="P1C-mY-pF7">
             <objects>
-                <tableViewController id="zxO-9z-qmX" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2pW-5T-lSo">
+                <tableViewController title="发现" id="zxO-9z-qmX" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2pW-5T-lSo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ikv-yj-FcN">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="ikv-yj-FcN">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ikv-yj-FcN" id="xoT-Ms-ZHc">
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.68282606488355069" blue="0.37996974388101967" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DU6-zJ-KTy">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DU6-zJ-KTy" id="X7X-mz-ili">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="r2b-g2-CHB">
+                                <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r2b-g2-CHB" id="CMu-Su-0Ui">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="zxO-9z-qmX" id="Pcv-ip-crR"/>
                             <outlet property="delegate" destination="zxO-9z-qmX" id="qQy-Lk-leg"/>
@@ -80,12 +98,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4d-BB-Fbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="954"/>
+            <point key="canvasLocation" x="462" y="954"/>
         </scene>
         <!--微信-->
         <scene sceneID="oPj-PW-eFs">
             <objects>
-                <viewController id="80k-VO-vgl" sceneMemberID="viewController">
+                <viewController title="微信" id="80k-VO-vgl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iB5-kE-DO1"/>
                         <viewControllerLayoutGuide type="bottom" id="2dh-Hd-Z7t"/>
@@ -93,7 +111,7 @@
                     <view key="view" contentMode="scaleToFill" id="2DJ-qa-OQ5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="0.81960784310000001" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="微信" id="KEe-m5-mCQ"/>
                 </viewController>
@@ -104,7 +122,7 @@
         <!--通讯录-->
         <scene sceneID="Ovo-6t-lsJ">
             <objects>
-                <viewController id="O45-Sa-BZh" sceneMemberID="viewController">
+                <viewController title="通讯录" id="O45-Sa-BZh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k5z-T8-gyx"/>
                         <viewControllerLayoutGuide type="bottom" id="3Sc-6N-9Qc"/>
@@ -112,13 +130,13 @@
                     <view key="view" contentMode="scaleToFill" id="ZpO-HE-6wp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99467986819999998" green="0.47060626750000001" blue="0.46872782709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="通讯录" id="55P-o8-yRu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrD-Ep-b8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-606" y="954"/>
+            <point key="canvasLocation" x="-538" y="954"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="6fz-Xa-O3T">
@@ -144,17 +162,17 @@
         <!--我-->
         <scene sceneID="tqT-Fa-yx9">
             <objects>
-                <tableViewController id="dA8-z7-lFl" sceneMemberID="viewController">
+                <tableViewController title="我" id="dA8-z7-lFl" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ey0-xK-9MA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DzF-rs-DoV">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="1" id="DzF-rs-DoV">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DzF-rs-DoV" id="5ID-V4-hDE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -168,7 +186,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eG3-mZ-Cv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1354" y="954"/>
+            <point key="canvasLocation" x="1420" y="954"/>
         </scene>
     </scenes>
 </document>
