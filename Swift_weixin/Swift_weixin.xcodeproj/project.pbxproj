@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DC19BEA64FAB7640FB4ED1E /* Pods_Swift_weixin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D604EA654F3C86FCCA94C46 /* Pods_Swift_weixin.framework */; };
+		661DD22C20F599010094CF67 /* WxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DD22B20F599010094CF67 /* WxTableViewController.swift */; };
 		66EA67391F57EE6500755196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA67381F57EE6500755196 /* AppDelegate.swift */; };
 		66EA673B1F57EE6500755196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EA673A1F57EE6500755196 /* ViewController.swift */; };
 		66EA673E1F57EE6500755196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EA673C1F57EE6500755196 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		02EF9D4EF3B4A579B4300EEE /* Pods-Swift_weixin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_weixin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_weixin/Pods-Swift_weixin.release.xcconfig"; sourceTree = "<group>"; };
 		0D604EA654F3C86FCCA94C46 /* Pods_Swift_weixin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_weixin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661DD22B20F599010094CF67 /* WxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WxTableViewController.swift; sourceTree = "<group>"; };
 		66EA67351F57EE6500755196 /* Swift_weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EA67381F57EE6500755196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EA673A1F57EE6500755196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				66EA67441F57EE6600755196 /* LaunchScreen.storyboard */,
 				66EA67471F57EE6600755196 /* Info.plist */,
 				66EA673F1F57EE6500755196 /* Swift_weixin.xcdatamodeld */,
+				661DD22B20F599010094CF67 /* WxTableViewController.swift */,
 			);
 			path = Swift_weixin;
 			sourceTree = "<group>";
@@ -218,26 +221,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = pwj;
 				TargetAttributes = {
 					66EA67341F57EE6500755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					66EA674B1F57EE6600755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 66EA67341F57EE6500755196;
 					};
 					66EA67561F57EE6600755196 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YNLT3B3J7K;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 66EA67341F57EE6500755196;
 					};
@@ -356,6 +359,7 @@
 				66EA67411F57EE6500755196 /* Swift_weixin.xcdatamodeld in Sources */,
 				66EA673B1F57EE6500755196 /* ViewController.swift in Sources */,
 				66EA67391F57EE6500755196 /* AppDelegate.swift in Sources */,
+				661DD22C20F599010094CF67 /* WxTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -431,6 +436,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -480,6 +486,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -487,6 +494,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -526,7 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -541,7 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -555,7 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixinTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_weixin.app/Swift_weixin";
 			};
 			name = Debug;
@@ -570,7 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixinTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_weixin.app/Swift_weixin";
 			};
 			name = Release;
@@ -584,7 +592,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixinUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Swift_weixin;
 			};
 			name = Debug;
@@ -598,7 +606,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "okay.com.Swift-weixinUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Swift_weixin;
 			};
 			name = Release;
